@@ -1,0 +1,16 @@
+Script started on Mon 23 Jan 2023 08:06:18 PM CST
+]0;rg6291gh@csci4:~[?1034h[rg6291gh@csci4 ~]$ ./a.outg++ project1_task2.cpp newfraction1.cpp newfraction1.h
+]0;rg6291gh@csci4:~[rg6291gh@csci4 ~]$ g++ project1_task2.cpp newfraction1.cpp newfraction1.h[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./a.out[K
+Please enter a numerator for f1:3
+Please enter a denominator for f1:4
+Please enter a numerator for f2:5
+Please enter a denominator for f2:6
+f1 = 3/4
+f2 = 5/6
+f1 + f2 =8/24
+f1 - f2 =-2/24
+f1 * f2 =15/24
+f1 / f2 =18/20
+]0;rg6291gh@csci4:~[rg6291gh@csci4 ~]$ exit
+
+Script done on Mon 23 Jan 2023 08:06:42 PM CST

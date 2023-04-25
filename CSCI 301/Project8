@@ -1,0 +1,113 @@
+Script started on Thu 20 Apr 2023 09:24:31 PM CDT
+]0;rg6291gh@csci4:~[?1034h[rg6291gh@csci4 ~]$ ./projg++ -o proj Project8_Testing.cpp
+]0;rg6291gh@csci4:~[rg6291gh@csci4 ~]$ g++ -o proj Project8_Testing.cpp[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./proj[K
+Welcome to the PeopleDB database system. Please enter the file that contains the initial people list:DB1.txt
+The initial database built from the input file is displayed by its original order:
+Jason 8/6/1992
+Alice 6/2/1990
+Cat 12/2/1999
+Mary 4/5/1993
+John 7/4/1995
+Joe 1/10/1998
+Jim 8/4/2000
+Please enter your option:
+1. Add a new person
+2. Remove a person
+3. Modify the database
+4. Search for a person in the database
+5. Display the database
+6. Display the database sorted by names
+7. Quit and save the database to a file
+-->1
+To add, enter name and birthday (month day year):
+BEc  eck 7 11 2002
+Add another one? (Y/N) n
+Please enter your option:
+1. Add a new person
+2. Remove a person
+3. Modify the database
+4. Search for a person in the database
+5. Display the database
+6. Display the database sorted by names
+7. Quit and save the database to a file
+-->2
+To remove, enter the name and birthday (month day year) of the person:
+J Cat 12 3   2 1999
+Please enter your option:
+1. Add a new person
+2. Remove a person
+3. Modify the database
+4. Search for a person in the database
+5. Display the database
+6. Display the database sorted by names
+7. Quit and save the database to a file
+-->5
+Displaying the database:
+Jason 8/6/1992
+Alice 6/2/1990
+Beck 7/11/2002
+Mary 4/5/1993
+John 7/4/1995
+Joe 1/10/1998
+Jim 8/4/2000
+Please enter your option:
+1. Add a new person
+2. Remove a person
+3. Modify the database
+4. Search for a person in the database
+5. Display the database
+6. Display the database sorted by names
+7. Quit and save the database to a file
+-->3
+To modify, enter the name and birthday (month day year) of the person to be modified:
+Jason 8 6 1992
+Now, enter the new name and birthday (month day year):
+Jason 8 7 1998
+Please enter your option:
+1. Add a new person
+2. Remove a person
+3. Modify the database
+4. Search for a person in the database
+5. Display the database
+6. Display the database sorted by names
+7. Quit and save the database to a file
+-->5
+Displaying the database:
+Jim 8/4/2000
+Alice 6/2/1990
+Beck 7/11/2002
+Jason 8/7/1998
+Mary 4/5/1993
+John 7/4/1995
+Joe 1/10/1998
+Please enter your option:
+1. Add a new person
+2. Remove a person
+3. Modify the database
+4. Search for a person in the database
+5. Display the database
+6. Display the database sorted by names
+7. Quit and save the database to a file
+-->6
+Displaying the database sorted by names:
+Alice 6/2/1990
+Beck 7/11/2002
+Jason 8/7/1998
+Jim 8/4/2000
+Joe 1/10/1998
+John 7/4/1995
+Mary 4/5/1993
+Please enter your option:
+1. Add a new person
+2. Remove a person
+3. Modify the database
+4. Search for a person in the database
+5. Display the database
+6. Display the database sorted by names
+7. Quit and save the database to a file
+-->7
+Enter the output file name to save the database: DB1.txt
+Enter the output file name to save the database: DB1
+]0;rg6291gh@csci4:~[rg6291gh@csci4 ~]$ exit
+
+Script done on Thu 20 Apr 2023 09:26:55 PM CDT

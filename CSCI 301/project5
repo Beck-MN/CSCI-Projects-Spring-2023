@@ -1,0 +1,19 @@
+Script started on Sun 19 Mar 2023 06:45:21 PM CDT
+]0;rg6291gh@csci4:~[?1034h[rg6291gh@csci4 ~]$ ./projg++ -o proj Project5.cpp[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./proj[K
+Choices
+1:Enter '1' to Evaluate a expression
+2:Enter any other number Quit
+Enter your choice:1
+Enter the expression
+5 4*5+(6*6+8)
+*************4*5+(6*6+8)=64*****************
+
+
+
+Choices
+1:Enter '1' to Evaluate a expression
+2:Enter any other number Quit
+Enter your choice:3
+]0;rg6291gh@csci4:~[rg6291gh@csci4 ~]$ exit
+
+Script done on Sun 19 Mar 2023 06:45:55 PM CDT

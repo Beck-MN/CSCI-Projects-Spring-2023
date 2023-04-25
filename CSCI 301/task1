@@ -1,0 +1,11 @@
+Script started on Mon 23 Jan 2023 07:10:01 PM CST
+]0;rg6291gh@csci4:~[?1034h[rg6291gh@csci4 ~]$ script g++ project1_task1.cpp fraction.h fraction.cpp[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Kscript g++ project1_task1.cpp fraction.h fraction.cpp[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kscript g++ project1_task1.cpp fraction.h fraction.cpp[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Kpwdcd desktopls[Kcdlscd desktoppwd[K[1Plsscript g++ project1_task1.cpp fraction.h fraction.cpp[1P[1P[1P[1P[1P[1P
+]0;rg6291gh@csci4:~[rg6291gh@csci4 ~]$ ./a.out
+Please enter a numerator:3
+Please enter a denominator:4
+Your numerator is: 3
+Your denominator is: 4
+Your fraction is: 3/4
+]0;rg6291gh@csci4:~[rg6291gh@csci4 ~]$ exit
+
+Script done on Mon 23 Jan 2023 07:10:40 PM CST

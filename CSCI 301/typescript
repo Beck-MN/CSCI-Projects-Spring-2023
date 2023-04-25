@@ -1,0 +1,42 @@
+Script started on Mon 13 Feb 2023 09:01:54 PM CST
+]0;rg6291gh@csci4:~[?1034h[rg6291gh@csci4 ~]$ scriptg++ Project2.cpp item.cpp[13Pitem.cppProject2.cpp[4Pitem.cppProject2.cpp item.cpp[K[11Pscript[Kg++ -o s[Kks[KSmall Ks[K[KkSmall.cpp
+[01m[KkSmall.cpp:[m[K In function ‘[01m[Kint main()[m[K’:
+[01m[KkSmall.cpp:83:21:[m[K [01;35m[Kwarning: [m[Kextended initializer lists only available with -std=c++11 or -std=gnu++11 [enabled by default]
+ int *arr = new int[7]{10, 4, 5, 8, 6, 11, 26};
+[01;32m[K                     ^[m[K
+[01m[KkSmall.cpp:90:22:[m[K [01;35m[Kwarning: [m[Kextended initializer lists only available with -std=c++11 or -std=gnu++11 [enabled by default]
+ int *arr2 = new int[7]{1, 4, 5, 8, 6, 11, 26};
+[01;32m[K                      ^[m[K
+[01m[KkSmall.cpp:95:22:[m[K [01;35m[Kwarning: [m[Kextended initializer lists only available with -std=c++11 or -std=gnu++11 [enabled by default]
+ int *arr3 = new int[7]{1, 4, 5, 8, 6, 11, 26};
+[01;32m[K                      ^[m[K
+]0;rg6291gh@csci4:~[rg6291gh@csci4 ~]$ g++ -o kSmall kSmall.cpp[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cscript[Kg++ Project2.cpp [11Pscriptg++ -o kSmall kSmall.cpp[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K./kSmall
+The Array: 10, 4, 5, 8, 6, 11, 26
+3rd smallest element is 6
+The Array: 1, 4, 5, 8, 6, 11, 26
+1st smallest element is 1
+The Array: 1, 4, 5, 8, 6, 11, 26
+6th smallest element is 11
+]0;rg6291gh@csci4:~[rg6291gh@csci4 ~]$ ./kSmallg++ -o kSmall kSmall.cpp
+[01m[KkSmall.cpp:[m[K In function ‘[01m[Kint main()[m[K’:
+[01m[KkSmall.cpp:83:21:[m[K [01;35m[Kwarning: [m[Kextended initializer lists only available with -std=c++11 or -std=gnu++11 [enabled by default]
+ int *arr = new int[7]{10, 4, 5, 8, 6, 11, 26};
+[01;32m[K                     ^[m[K
+[01m[KkSmall.cpp:90:22:[m[K [01;35m[Kwarning: [m[Kextended initializer lists only available with -std=c++11 or -std=gnu++11 [enabled by default]
+ int *arr2 = new int[7]{1, 4, 12, 8, 6, 11, 26};
+[01;32m[K                      ^[m[K
+[01m[KkSmall.cpp:95:22:[m[K [01;35m[Kwarning: [m[Kextended initializer lists only available with -std=c++11 or -std=gnu++11 [enabled by default]
+ int *arr3 = new int[7]{1, 5, 4, 8, 6, 11, 26};
+[01;32m[K                      ^[m[K
+]0;rg6291gh@csci4:~[rg6291gh@csci4 ~]$ g++ -o kSmall kSmall.cpp[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[16P./kSmall
+The Array: 10, 4, 5, 8, 6, 11, 26
+3rd smallest element is 6
+The Array: 1, 4, 12, 8, 6, 11, 26
+1st smallest element is 1
+The Array: 1, 5, 4, 8, 6, 11, 26
+6th smallest element is 11
+]0;rg6291gh@csci4:~[rg6291gh@csci4 ~]$ end script
+bash: end: command not found...
+]0;rg6291gh@csci4:~[rg6291gh@csci4 ~]$ exit
+
+Script done on Mon 13 Feb 2023 09:05:52 PM CST

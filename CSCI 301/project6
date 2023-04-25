@@ -1,0 +1,69 @@
+Script started on Sun 26 Mar 2023 02:03:46 PM CDT
+^[[A    ]0;rg6291gh@csci4:~[?1034h[rg6291gh@csci4 ~]$ ./projg++ -o  proj FrontListTesting.cpp
+[01m[KFrontListTesting.cpp:9:9:[m[K [01;35m[Kwarning: [m[K#pragma once in main file [enabled by default]
+ #pragma once
+[01;32m[K         ^[m[K
+In file included from [01m[KNode.h:29:0[m[K,
+                 from [01m[KLinkedList.h:12[m[K,
+                 from [01m[KFrontListInheritedPublic.h:4[m[K,
+                 from [01m[KFrontListTesting.cpp:10[m[K:
+[01m[KNode.cpp:8:0:[m[K [01;35m[Kwarning: [m[K"NULL" redefined [enabled by default]
+ #define NULL 0
+[01;32m[K ^[m[K
+In file included from [01m[K/usr/include/time.h:37:0[m[K,
+                 from [01m[K/usr/include/pthread.h:24[m[K,
+                 from [01m[K/usr/include/c++/4.8.2/x86_64-redhat-linux/bits/gthr-default.h:35[m[K,
+                 from [01m[K/usr/include/c++/4.8.2/x86_64-redhat-linux/bits/gthr.h:148[m[K,
+                 from [01m[K/usr/include/c++/4.8.2/ext/atomicity.h:35[m[K,
+                 from [01m[K/usr/include/c++/4.8.2/bits/ios_base.h:39[m[K,
+                 from [01m[K/usr/include/c++/4.8.2/ios:42[m[K,
+                 from [01m[K/usr/include/c++/4.8.2/ostream:38[m[K,
+                 from [01m[K/usr/include/c++/4.8.2/iostream:39[m[K,
+                 from [01m[KFrontListTesting.cpp:8[m[K:
+[01m[K/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include/stddef.h:399:0:[m[K [01;36m[Knote: [m[Kthis is the location of the previous definition
+ #define NULL __null
+[01;32m[K ^[m[K
+In file included from [01m[KFrontListTesting.cpp:10:0[m[K:
+[01m[KFrontListInheritedPublic.h:15:41:[m[K [01;35m[Kwarning: [m[Koverride controls (override/final) only available with -std=c++11 or -std=gnu++11 [enabled by default]
+     bool insert(const ItemType& newEntry) override;
+[01;32m[K                                         ^[m[K
+[01m[KFrontListInheritedPublic.h:16:17:[m[K [01;35m[Kwarning: [m[Koverride controls (override/final) only available with -std=c++11 or -std=gnu++11 [enabled by default]
+     bool remove() override;
+[01;32m[K                 ^[m[K
+[01m[KFrontListInheritedPublic.h:17:25:[m[K [01;35m[Kwarning: [m[Koverride controls (override/final) only available with -std=c++11 or -std=gnu++11 [enabled by default]
+     ItemType retrieve() const override;
+[01;32m[K                         ^[m[K
+[01m[KFrontListInheritedPublic.h:18:16:[m[K [01;35m[Kwarning: [m[Koverride controls (override/final) only available with -std=c++11 or -std=gnu++11 [enabled by default]
+     void clear() override;
+[01;32m[K                ^[m[K
+In file included from [01m[KFrontListTesting.cpp:11:0[m[K:
+[01m[KFrontListInheritedPrivate.h:13:41:[m[K [01;35m[Kwarning: [m[Koverride controls (override/final) only available with -std=c++11 or -std=gnu++11 [enabled by default]
+     bool insert(const ItemType& newEntry) override {
+[01;32m[K                                         ^[m[K
+[01m[KFrontListInheritedPrivate.h:18:17:[m[K [01;35m[Kwarning: [m[Koverride controls (override/final) only available with -std=c++11 or -std=gnu++11 [enabled by default]
+     bool remove() override {
+[01;32m[K                 ^[m[K
+[01m[KFrontListInheritedPrivate.h:28:25:[m[K [01;35m[Kwarning: [m[Koverride controls (override/final) only available with -std=c++11 or -std=gnu++11 [enabled by default]
+     ItemType retrieve() const override {
+[01;32m[K                         ^[m[K
+[01m[KFrontListInheritedPrivate.h:32:16:[m[K [01;35m[Kwarning: [m[Koverride controls (override/final) only available with -std=c++11 or -std=gnu++11 [enabled by default]
+     void clear() override {
+[01;32m[K                ^[m[K
+]0;rg6291gh@csci4:~[rg6291gh@csci4 ~]$ g++ -o  proj FrontListTesting.cpp[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./proj[K
+Testing FrontList implementation...
+Retrieving first element: 6
+Retrieving first element after remove: 3
+Testing FrontList implementation...
+Retrieving first element: 6
+Retrieving first element after remove: 3
+Testing FrontList implementation...
+Retrieving first element: 6
+Retrieving first element after remove: 3
+Testing LinkedList implementation...
+Retrieving first element: 5
+Retrieving third element: 3
+Retrieving first element after remove: 7
+Retrieving third element after remove: 6
+]0;rg6291gh@csci4:~[rg6291gh@csci4 ~]$ exit
+
+Script done on Sun 26 Mar 2023 02:04:06 PM CDT
