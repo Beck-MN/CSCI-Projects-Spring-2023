@@ -1,3 +1,10 @@
+/*
+@problem Main program for Data Base Simulation
+@author Beck Christensen
+@starID rg6291gh
+@duedate 4.21.2023
+@instructor Jie Meichsner 
+*/
 #include <iostream>
 #include <fstream>
 #include <string>
