@@ -1,6 +1,6 @@
 /*
 @problem Main program for Data Base Simulation
-@author Charles Beck Christensen
+@author Beck Christensen
 @starID rg6291gh
 @duedate 4.21.2023
 @instructor Jie Meichsner
