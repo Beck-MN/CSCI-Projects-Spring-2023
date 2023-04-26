@@ -1,2 +1,2 @@
 # CSCI-Projects-Spring-2023
- All of the comp sci projects that I worked on during my Spring semeseter in 2023.
+ All of the comp sci projects that I worked on during my Spring semeseter in 2023. This class focused on data stuctures and also emphasized object-oriented programming through c++. A good portion of the code in this repo is copyrighted and had to be used as implementation since this class also heavily focued on inheritence and implementation files i.e. header files. This is why I've also put the header files in a seperate folder. The programs that are copyrighted are specified at the very top of the program.
