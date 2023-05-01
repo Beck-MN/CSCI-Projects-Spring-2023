@@ -3,24 +3,25 @@
 
 #include <iostream>
 #include <map>
+#include <string>
 
 using namespace std;
 
-int main { 
+int main() { 
 
 //creat a map of strings to integers
-map<string, int> map;
+map<string, int> m;
 
 //Insert some values into the map
-map["one"] = 1;
-map["two"] = 2;
-map["three"] = 3;
+m["one"] = 1;
+m["two"] = 2;
+m["three"] = 3;
 
 //get an iterator pointing to the first element in the map
-map<string, int>::interator it = map.begin();
+map<string,int>::iterator it = m.begin();
 
 //iterate through map and print values
-while (it != map.end()) {
+while (it != m.end()) {
 
 	cout << "Key: " << it->first << ", Value: " << it->second << endl;
 	++it;
