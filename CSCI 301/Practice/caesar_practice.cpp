@@ -33,14 +33,10 @@ string caesarChiper(string s, int degree)
                 if ((num + degree) > 90)
                 {
                     num = (num + degree) - 26;
-                    newC = char(num);
-                    s[i] = newC;
                 }
                 else
                 {
                     num = num + degree;
-                    newC = char(num);
-                    s[i] = newC;
                 }
             }
 
@@ -50,16 +46,16 @@ string caesarChiper(string s, int degree)
                 if ((num + degree) > 122)
                 {
                     num = (num + degree) - 26;
-                    newC = char(num);
-                    s[i] = newC;
                 }
                 else
                 {
                     num = num + degree;
-                    newC = char(num);
-                    s[i] = newC;
                 }
             }
+
+            newC = char(num);
+            s[i] = newC;
+            
         }
     }
     return s;
