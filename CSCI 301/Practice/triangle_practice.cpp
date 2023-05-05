@@ -30,10 +30,13 @@ bool doesTriangleFit(vector<double> triangle, vector<double> hole)
     return findArea(triangle) <= findArea(hole);
 }
 
+/*Returns the string value of a boolean input
+1 = True, 0 = False*/
 string btos(bool x)
 {
-  if(x) return "True";
-  return "False";
+    if (x)
+        return "True";
+    return "False";
 }
 
 int main()
