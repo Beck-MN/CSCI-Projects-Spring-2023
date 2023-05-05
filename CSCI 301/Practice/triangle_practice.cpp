@@ -5,6 +5,10 @@
 
 // Beck Christensen, May 4th, Practice Program, Thu
 
+/*@problem: Create a function that takes the dimensions of 
+two triangles (as arrays) and checks if the first triangle 
+fits into the second one. */
+
 using namespace std;
 
 /*uses Heron's formula to calculate area of trianle
@@ -17,9 +21,7 @@ double findArea(vector<double> triangle)
 
     double s = (a + b + c) / 2;
 
-    double d = s * (s - a) * (s - b) * (s - c);
-
-    double area = sqrt(d);
+    double area = sqrt(s * (s - a) * (s - b) * (s - c));
 
     return area;
 }
@@ -42,7 +44,7 @@ string btos(bool x)
     return "False";
 }
 
-/*function to see if given trianlge is actually a triangle.
+/*function to see if given trianlge is actually a triangle (mathematically speaking).
 An input is a triangle if the sum of any two sides is bigger than
 remaining side. If input is not a triangle, function throws
 excpetion and exits the code*/
@@ -55,7 +57,7 @@ void isTriangle(vector<double> triangle)
 
     try
     {
-        if (a + b > c && b + c > a && a + c > b)
+        if (a + b > c && b + c > a && a + c > b && triangle.size() == 3)
         {
             return;
         }
