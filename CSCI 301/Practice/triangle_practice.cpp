@@ -1,4 +1,5 @@
 #include <iostream>
+#include <stdlib.h>
 #include <vector>
 #include <cmath>
 
@@ -8,7 +9,7 @@ using namespace std;
 
 /*uses Heron's formula to calculate area of trianle
 given the lengths of its side */
-int findArea(vector<double> triangle)
+double findArea(vector<double> triangle)
 {
     double a = triangle[0];
     double b = triangle[1];
@@ -16,7 +17,9 @@ int findArea(vector<double> triangle)
 
     double s = (a + b + c) / 2;
 
-    double area = sqrt(s * (s - a) * (s - b) * (s - c));
+    double d = s * (s - a) * (s - b) * (s - c);
+
+    double area = sqrt(d);
 
     return area;
 }
@@ -39,44 +42,72 @@ string btos(bool x)
     return "False";
 }
 
+/*function to see if given trianlge is actually a triangle.
+An input is a triangle if the sum of any two sides is bigger than
+remaining side. If input is not a triangle, function throws
+excpetion and exits the code*/
+void isTriangle(vector<double> triangle)
+{
+
+    double a = triangle[0];
+    double b = triangle[1];
+    double c = triangle[2];
+
+    try
+    {
+        if (a + b > c && b + c > a && a + c > b)
+        {
+            return;
+        }
+        else
+        {
+            throw 505;
+        }
+    }
+
+    catch (...)
+    {
+        cout << "Error: Impossible Triangle" << endl;
+        exit(EXIT_SUCCESS);
+    }
+}
+
 int main()
 {
 
     bool ans;
+    double in;
 
-    // test one: triangle same size as hole
-    vector<double> triangle{2.0, 2.0, 2.0};
-    vector<double> hole{2.0, 2.0, 2.0};
+    vector<double> triangle;
+    vector<double> hole;
 
-    ans = doesTriangleFit(triangle, hole);
+    cout << "Enter triangle diamentions one at a time:";
+    for (int i = 0; i < 3; ++i)
+    {
+        cin >> in;
+        triangle.push_back(in);
+    }
+
+    isTriangle(triangle);
+
+    cout << "Enter hole diamentions one at a time:";
+    for (int i = 0; i < 3; ++i)
+    {
+        cin >> in;
+        hole.push_back(in);
+    }
+
+    isTriangle(hole);
 
     cout << "Area of triangle: " << findArea(triangle) << endl;
     cout << "Area of hole: " << findArea(hole) << endl;
 
-    cout << "Answer for test one: " << btos(ans) << endl;
-    cout << "Sould be: True" << endl
-         << endl;
-
-    // test two: triangle bigger than hole
-    vector<double> triangle2{3.0, 3.0, 3.0};
-
-    ans = doesTriangleFit(triangle2, hole);
-
-    cout << "Area of triangle: " << findArea(triangle2) << endl;
-    cout << "Area of hole: " << findArea(hole) << endl;
-
-    cout << "Answer for test one: " << btos(ans) << endl;
-    cout << "Sould be: False" << endl
-         << endl;
-
-    // test three: triangle smaller than hole
-    vector<double> triangle3{1.0, 1.0, 1.0};
-
-    ans = doesTriangleFit(triangle3, hole);
-
-    cout << "Area of triangle: " << findArea(triangle3) << endl;
-    cout << "Area of hole: " << findArea(hole) << endl;
-
-    cout << "Answer for test one: " << btos(ans) << endl;
-    cout << "Sould be: True" << endl;
+    if (doesTriangleFit(triangle, hole))
+    {
+        cout << "Your triangle fits in the hole" << endl;
+    }
+    else
+    {
+        cout << "Your triangle does not fit in the hole" << endl;
+    }
 }
