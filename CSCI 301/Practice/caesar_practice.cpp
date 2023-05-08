@@ -18,6 +18,7 @@ string caesarChiper(string s, int degree)
     {
 
         char c = s[i];
+        
         char newC;
 
         // ingnores spaces
